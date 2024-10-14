@@ -1,0 +1,63 @@
+@import "../../shared/styles/breakpoint.scss";
+@import "../../shared/styles/mixins.scss";
+
+.main_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: clamp(12.5px, 1.302vw, 50px);
+  margin-top: clamp(25px, 2.604vw, 100px);
+}
+
+.main_container h1 {
+  font-size: 40px;
+}
+
+.main_card {
+  display: flex;
+  flex-direction: row;
+  gap: clamp(15px, 1.5624vw, 60px);
+  margin-top: clamp(25px, 2.604vw, 100px);
+}
+
+.card_item {
+  margin: 0;
+  padding: 0 clamp(7.5px, 0.7812vw, 30px);
+  font-size: clamp(15px, 1.5624vw, 60px);
+}
+
+img {
+  max-width: clamp(230px, 23.9568vw, 920px);
+  height: auto;
+}
+
+.btn_container {
+  display: flex;
+  margin: clamp(12.5px, 1.302vw, 50px) 0;
+  gap: clamp(7.5px, 0.7812vw, 30px);
+}
+
+.prime {
+  color: #ff7f50;
+}
+.properties {
+  color: #3f3d56;
+  font-weight: bold;
+}
+
+.main_text {
+  margin-right: clamp(75px, 7.812vw, 300px);
+  font-size: 15px;
+}
+
+.text_btn {
+  width: clamp(160px, 16.6656vw, 640px);
+  height: clamp(30px, 3.1248vw, 120px);
+  background-color: #ff7f50;
+  color: white;
+}
+
+.img_btn {
+  background-color: #3f3d56;
+  width: clamp(60px, 6.2496vw, 240px);
+}

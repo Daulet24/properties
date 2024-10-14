@@ -1,0 +1,18 @@
+@import "../styles/breakpoint.scss";
+@import "../styles/mixins.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+button,
+p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}

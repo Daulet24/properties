@@ -1,0 +1,44 @@
+@import "../../shared/styles/breakpoint.scss";
+@import "../../shared/styles/mixins.scss";
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: clamp(7.5px, 0.7812vw, 30px) clamp(12.5px, 1.302vw, 50px);
+  gap: clamp(7.5px, 0.7812vw, 30px);
+}
+
+.nav_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  gap: clamp(17.5px, 1.8228vw, 70px);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: clamp(7.5px, 0.7812vw, 30px);
+}
+
+.header_search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: clamp(125px, 13.02vw, 500px);
+  height: clamp(12.5px, 1.302vw, 50px);
+  padding: clamp(4px, 0.41664vw, 16px);
+  border: 2px solid #ff7f50;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
